@@ -1,1 +1,1 @@
-meteor run --production
+meteor run --production --port 4000
