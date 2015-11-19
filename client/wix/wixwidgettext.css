@@ -1,0 +1,10 @@
+.wixwidgettext {
+  position: relative;
+  width: auto;
+  height: 100%;
+  margin-top: 50%;
+  box-sizing: border-box;
+  border: 1px solid navy;
+}
+
+

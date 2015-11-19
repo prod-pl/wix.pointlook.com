@@ -1,0 +1,19 @@
+<template name='wixwidgetvideo'>
+    <div id="video-bg">
+        <video preload="auto" autoplay="autoplay" loop="loop" data-speed=".3" defaultPlaybackRate=".3" muted poster="/images/SlopePurple.png">
+            <!-- Default video source: -->
+            <source type="video/mp4" src="https://s3.amazonaws.com/assets.pointlook.com/public/videos/action-with-people/SlopePurple-480.mp4"
+                    media="(orientation:landscape)">
+            <source type="video/webm" src="https://s3.amazonaws.com/assets.pointlook.com/public/videos/big_buck_bunny.webm"
+                    media="(orientation:landscape)">
+            <!-- Use square video source to waste less bandwidth: -->
+            <source type="video/mp4" src="myvid_square.mp4"
+                    media="(orientation:portrait)">
+            <source type="video/webm" src="myvid_square.webm"
+                    media="(orientation:portrait)">
+        </video>
+    <!--
+        Buttons or metadata go here
+    -->
+    </div>
+</template>

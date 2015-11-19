@@ -1,0 +1,3 @@
+meteor remove autopublish insecure
+meteor add kadira:flow-router
+meteor add kadira:blaze-layout
